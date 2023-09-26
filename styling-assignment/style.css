@@ -1,0 +1,12 @@
+h1 {
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    color: black;
+    font-family: verdana;
+    font-size: 12px;
+}
