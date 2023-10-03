@@ -17,6 +17,10 @@ Color 5 - #545643
     text-align: center;
   }
 
-.body {
+body {
         background-color: #f1dede;
     }
+
+button:hover {
+    background-color: #909580;
+}
