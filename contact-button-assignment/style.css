@@ -8,9 +8,14 @@ Color 5 - #545643
 */
 
 .button {
-    background-color: red;
+    background-color: #545643;
     color: white;
     font-size: 30px;
     border: none;
     width: 200px;
+    text-align: center;
   }
+
+.body {
+        background-color: #f1dede;
+    }
