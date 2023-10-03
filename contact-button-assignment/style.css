@@ -10,6 +10,7 @@ Color 5 - #545643
 .button {
     background-color: #545643;
     color: white;
+    font-family: Georgia, serif;
     font-size: 30px;
     border: none;
     width: 200px;
