@@ -10,15 +10,17 @@ Color 5 - #545643
 .button {
     background-color: #545643;
     color: white;
-    font-family: Georgia, serif;
     font-size: 30px;
     border: none;
     width: 200px;
     text-align: center;
+    font-family: 'Mulish', sans-serif;
   }
 
 body {
         background-color: #f1dede;
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
     }
 
 button:hover {
