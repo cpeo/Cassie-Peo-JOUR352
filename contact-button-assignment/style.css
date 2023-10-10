@@ -26,3 +26,15 @@ body {
 button:hover {
     background-color: #909580;
 }
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: black;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    color: #80727b;
+}
