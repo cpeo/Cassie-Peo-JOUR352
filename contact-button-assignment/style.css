@@ -15,12 +15,14 @@ Color 5 - #545643
     width: 200px;
     text-align: center;
     font-family: 'Mulish', sans-serif;
+    padding: 25px 50px 75px 100px;
   }
 
 body {
         background-color: #f1dede;
         font-family: 'Merriweather', serif;
         font-size: 20px;
+        text-align: center;
     }
 
 button:hover {
