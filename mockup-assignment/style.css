@@ -26,7 +26,8 @@ img {
 h1 {
     margin: 0px 200px 0px 0px;
     font-family: 'montserrat', sans-serif;
-    padding-top: 60px;
+    font-size: 20px;
+    padding-top: 90px;
 }
 
 h2 {
