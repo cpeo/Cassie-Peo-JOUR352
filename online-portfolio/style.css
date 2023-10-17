@@ -1,3 +1,33 @@
 img {
-    width:100%
+    width:100%;
+}
+
+.nav {
+    width:100%;
+}
+
+.nav-link {
+
+}
+
+.nav-link:hover {
+    background-color: #;
+    color: ;
+}
+
+.container-fluid-topper {
+    background-color: #3A4E48;
+    color: white;
+    padding: 0px;
+}
+
+#contact-info-header {
+    text-align: center;
+}
+
+footer {
+    background-color: #3A4E48;
+    color: white;
+    padding: 0px;
+    text-align: center;
 }
