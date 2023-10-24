@@ -1,33 +1,125 @@
-img {
-    width:100%;
+@media {
+
+    img {
+        width:100%;
+    }
+
+    .nav {
+        width:100%;
+    }
+
+    .nav-link {
+        color: #3A4E48
+    }
+
+    .nav-link:hover {
+        background-color: #e2e2e2;
+        color: #6a7b76;
+    }   
+
+    .container-fluid-topper {
+        background-color: #3A4E48;
+        color: white;
+    }
+
+    .container-fluid {
+        background-color: #6a7b76;
+    }
+
+    .container-nav {
+        background-color: #d8d4d5;
+        margin: 8px 0px 8px 0px;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .container-body {
+        background-color: #e2e2e2;
+        margin: 8px 0px 8px 0px;
+        padding: 10;
+    }
+
+    .container-contact-info {
+        background-color: #d8d4d5;
+        margin: 8px 0px 8px 0px;
+        padding: 15px 0px 20px 0px;
+    }
+
+    footer {
+        background-color: #3A4E48;
+        color: white;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .body {
+        background-color: #6a7b76;
+    }
+
+    .container-body {
+        margin: 0px 20px 0px 20px;
+        padding: 20px 20px 20px 12px;
+    }
+
+    .test {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .col-sm-4 {
+        padding: 85px 0px 0px 0px;
+    }
+
+    hr {
+        border: 3px, black;
+        border-radius: 1px
+    } 
+
+    h1 {
+        font-family: 'Merriweather', serif;
+        letter-spacing: 4px;
+    }
+
+    h2 {
+        font-family: 'Merriweather', serif;
+    }
+
+    h3 {
+        font-family: 'Merriweather', sans-serif;
+        font-style: italic;
+        padding-bottom: 10px;
+        border-bottom-style: solid;
+    }
+
+    h4 {
+        font-family: 'Merriweather', serif;
+        padding-bottom: 10px;
+        border-bottom-style: solid;
+    }
+
+    p {
+        font-family: 'Montserrat', serif;
+    }
+
+    li {
+        font-family: 'Montserrat', serif;
+    }
+
+    .button {
+        font-family: 'Montserrat', serif;
+    }
+
+    .contact-link {
+        color: #3A4E48
+    }
+
+    .contact-link:hover {
+        background-color: #e2e2e2;
+        color: #6a7b76;
+    }
+
 }
+/* End default desktop media query */
 
-.nav {
-    width:100%;
-}
-
-.nav-link {
-
-}
-
-.nav-link:hover {
-    background-color: #;
-    color: ;
-}
-
-.container-fluid-topper {
-    background-color: #3A4E48;
-    color: white;
-    padding: 0px;
-}
-
-#contact-info-header {
-    text-align: center;
-}
-
-footer {
-    background-color: #3A4E48;
-    color: white;
-    padding: 0px;
-    text-align: center;
+/* Media query for mobile adjustments */
+@media (min-width: 576px) {
+    
 }
