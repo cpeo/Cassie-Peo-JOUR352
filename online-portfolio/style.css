@@ -99,6 +99,9 @@
 
     h2 {
         font-family: 'Merriweather', serif;
+        border-bottom-style: solid;
+        border-bottom-color: #E2EABB;
+        padding: 0px 0px 10px 0px;
     }
 
     h3 {
@@ -127,6 +130,8 @@
         background-color: #E2EABB;
         color: black;
         border-radius: 5px;
+        font-size: 18px;
+        padding: 9px 18px;
     }
 
     .contact-link {
