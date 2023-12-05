@@ -1,5 +1,54 @@
 /*applies to any screen on any device*/
-@media screen {
+@media {
+
+    img {
+        width:100%;
+    }
+    
+    #topper {
+        height: 400px;
+        background-image: url(teen\ mental\ health\ crisis\ NYT\ lead\ pic.png);
+        background-size: cover;
+        background-position: 30% 70%;
+    }
+
+    .pullquote {
+        font-family: Georgia, serif;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        border: 3px solid black;
+    }
+
+    .attribution {
+        font-family: Georgia, serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .quote {
+        font-family: Georgia, serif;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .quotemark {
+        font-size: 60px;
+        font-weight: bold;
+        line-height: 60px;
+        float: left;
+    }
 
     #headshot {
         width: 300px;
@@ -37,8 +86,20 @@
     }
 }
 
-/*desktop styles start*/
+/*mobile styles start*/
 @media (min-width: 576px) {
+
+    #info {
+        width: 700px;
+    }
+
+    #headshot {
+        float: left;
+    }
+}
+
+/*big size styles start*/
+@media (min-width: 992px) {
 
     #info {
         width: 700px;
