@@ -4,12 +4,93 @@
     img {
         width:100%;
     }
+
+    .header {
+        padding: 100px 0px 50px 0px;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        border-bottom-style: solid;
+        color: white;
+    }
+
+    #header {
+        background-color: #bcd4e6;
+        border: 3px solid black;
+        width: 100%;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .subheadline {
+        color: white;
+        text-shadow: black;
+        padding: 20px 0px 20px 0px;
+        font-family: 'Montserrat', serif;
+    }
+
+    .subhead {
+        font-family: 'Montserrat', serif;
+        text-indent: 20px;
+    }
+
+    .disclaimer {
+        font-family: 'Montserrat', serif;
+        border-bottom-style: solid;
+        padding-bottom: 20px;
+    }
+
+    .author-info {
+        font-family: 'Montserrat', serif;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .publish-date {
+        font-family: 'Montserrat', serif;
+    }
+
+    .body {
+        background-color: white;
+    }
+
+    #body-content {
+        padding: 15px 0px 0px 0px;
+        background-color: white;
+    }
+
+    .container-body {
+        background-color: white;
+        margin: 20px 0px 8px 0px;
+        padding: 0px 0px 0px 0px;
+    }
     
+    .content{
+        padding: 30px 0px 0px 0px;
+    }
+
+    p {
+        font-family: 'Merriweather', serif;
+    }
+
     #topper {
         height: 400px;
         background-image: url(teen\ mental\ health\ crisis\ NYT\ lead\ pic.png);
         background-size: cover;
         background-position: 30% 70%;
+    }
+
+    .how-reported {
+        border-top: 3px solid black;
+        padding: 30px 0px 10px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .photo-caption {
+        font-size: small;
+    }
+
+    h4 {
+        text-indent: 50px;
+        padding: 20px 20px 20px 20px;
+        border-bottom: 3px #bcd4e6;
     }
 
     .pullquote {
@@ -19,18 +100,8 @@
         font-weight: bold;
         text-align: center;
         margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
-        border: 3px solid black;
-    }
-
-    .attribution {
-        font-family: Georgia, serif;
-        font-size: 20px;
-        font-style: italic;
-        font-weight: bold;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
+        padding: 10px 10px 10px 10px;
+        border: 5px solid #bcd4e6;
     }
 
     .quote {
@@ -50,36 +121,28 @@
         float: left;
     }
 
-    #headshot {
-        width: 300px;
-        float: none;
-        margin: 0px 50px 0px 0px;
+    /*make 100% in media queries*/
+    .content {
+        margin:auto;
+        width:90%;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .attribution {
+        font-family: Georgia, serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     body {
         font-family: Arial, sans-serif;
     }
 
-    #contact a {
-        color: black;
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    #contact a:hover {
-        color: red;
-    }
-
-    #info {
-        width: 100%;
-        margin: auto;
-    }
-
-    #footer {
-        position: fixed;
-        bottom: 0;
-        background-color: black;
-        color: white;
+    .footer {
         padding: 5px 5px 5px 5px;
         width: 100%;
         text-align: center;
@@ -89,23 +152,18 @@
 /*mobile styles start*/
 @media (min-width: 576px) {
 
-    #info {
-        width: 700px;
+    .content {
+        width:100%;
     }
 
-    #headshot {
-        float: left;
-    }
 }
 
 /*big size styles start*/
 @media (min-width: 992px) {
 
-    #info {
-        width: 700px;
+    .content {
+        width:100%;
     }
 
-    #headshot {
-        float: left;
-    }
+
 }
